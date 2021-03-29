@@ -23,11 +23,12 @@ The following checks shall be manually performed for every feature in the datase
 * Check that where several spatial representations are provided ([code](#code), [geographicalPosition](#geographicalPosition), [gridPosition](#gridPosition) and [geometry](#geometry)), they are consistent (spatialRepresentationsConsistencyConstraint).
 
 * Check that the [code](#code) is composed of:
-	(1) A coordinate reference system part, represented by the word CRS, followed by the EPSG code.
-	(2) A resolution and position part:
-		— If the coordinate reference system is projected, the word RES followed by the grid resolution in meters and the letter m. Then, the letter N followed by the northing value in meters, and the letter E followed by the easting value in meters.
-		— If the coordinate reference system is not projected, the word RES followed by the grid resolution in degree-minute-second, followed by the word dms. Then the word LON followed by the longitude value in degree-minute-second, and word LAT followed by the latitude value in degree-minute-second.
-		For both cases, the given position shall be the position of the lower left cell corner (cellCodeConstraint).
+	1. A coordinate reference system part, represented by the word CRS, followed by the EPSG code.
+	2. A resolution and position part:
+		- If the coordinate reference system is projected, the word RES followed by the grid resolution in meters and the letter m. Then, the letter N followed by the northing value in meters, and the letter E followed by the easting value in meters.
+		- If the coordinate reference system is not projected, the word RES followed by the grid resolution in degree-minute-second, followed by the word dms. Then the word LON followed by the longitude value in degree-minute-second, and word LAT followed by the latitude value in degree-minute-second.
+
+			For both cases, the given position shall be the position of the lower left cell corner (cellCodeConstraint).
 
 
 **Reference(s)**: 
