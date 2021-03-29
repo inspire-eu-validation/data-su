@@ -53,12 +53,12 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 Abbreviation                         |  XPath expression    | Multiplicity    | Voidable
 ------------------------------------ | ---------------------|-----------------|------------
 VectorStatisticalUnit.evolutions <a name ="evolutions"></a>	| //schema-element(su-vector:VectorStatisticalUnit)/su-vector:evolutions/@xlink:href | 0..\* | Yes
-AreaStatisticalUnit.administrativeUnit <a name ="administrativeUnit"></a>	| //schema-element(su-vector:VectorStatisticalUnit)/su-vector:administrativeUnit/@xlink:href | 0..\* | Yes
-AreaStatisticalUnit.lowers <a name ="lowersASU"></a> | //schema-element(su-vector:VectorStatisticalUnit)/su-vector:lowers/@xlink:href | 0..\* | Yes
-AreaStatisticalUnit.uppers <a name ="uppersASu"></a> | //schema-element(su-vector:VectorStatisticalUnit)/su-vector:uppers/@xlink:href | 0..\* | Yes
-AreaStatisticalUnit.successors <a name ="successors"></a> | //schema-element(su-vector:VectorStatisticalUnit)/su-vector:successors/@xlink:href | 0..\* | Yes
-AreaStatisticalUnit.predecessors <a name ="predecessors"></a> | //schema-element(su-vector:VectorStatisticalUnit)/su-vector:predecessors/@xlink:href | 0..\* | Yes
-AreaStatisticalUnit.tesselation <a name ="tesselation"></a> | //schema-element(su-vector:VectorStatisticalUnit)/su-vector:tesselation/@xlink:href | 0..1 | Yes
+AreaStatisticalUnit.administrativeUnit <a name ="administrativeUnit"></a>	| //schema-element(su-vector:AreaStatisticalUnit)/su-vector:administrativeUnit/@xlink:href | 0..\* | Yes
+AreaStatisticalUnit.lowers <a name ="lowersASU"></a> | //schema-element(su-vector:AreaStatisticalUnit)/su-vector:lowers/@xlink:href | 0..\* | Yes
+AreaStatisticalUnit.uppers <a name ="uppersASu"></a> | //schema-element(su-vector:AreaStatisticalUnit)/su-vector:uppers/@xlink:href | 0..\* | Yes
+AreaStatisticalUnit.successors <a name ="successors"></a> | //schema-element(su-vector:AreaStatisticalUnit)/su-vector:successors/@xlink:href | 0..\* | Yes
+AreaStatisticalUnit.predecessors <a name ="predecessors"></a> | //schema-element(su-vector:AreaStatisticalUnit)/su-vector:predecessors/@xlink:href | 0..\* | Yes
+AreaStatisticalUnit.tesselation <a name ="tesselation"></a> | //schema-element(su-vector:AreaStatisticalUnit)/su-vector:tesselation/@xlink:href | 0..1 | Yes
 StatisticalTessellation.units <a name ="unitsST"></a> | //schema-element(su-vector:StatisticalTessellation)/su-vector:units/@xlink:href | 0..\* | Yes
 StatisticalTessellation.lower <a name ="lowerST"></a> | //schema-element(su-vector:StatisticalTessellation)/su-vector:lower/@xlink:href | 0..1 | Yes
 StatisticalTessellation.upper <a name ="upperST"></a> | //schema-element(su-vector:StatisticalTessellation)/su-vector:upper/@xlink:href | 0..1 | Yes
