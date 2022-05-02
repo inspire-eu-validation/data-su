@@ -30,4 +30,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                          |  XPath expression
 ----------------------------------------------------- | ------------------------------------------------------------------
-features <a name="features"></a>   |  //schema-element(su-vector:VectorStatisticalUnit) <br> OR <br>  //schema-element(su-vector:AreaStatisticalUnit) OR <br>  //schema-element(su-vector:StatisticalTesselation) OR <br>  //schema-element(su-vector:Evolution) OR <br>  //schema-element(su-grid:StatisticalGridCell) OR <br>  //schema-element(su-grid:StatisticalGrid)
+features <a name="features"></a>   |  //schema-element(su-vector:VectorStatisticalUnit) <br> OR <br>  //schema-element(su-vector:AreaStatisticalUnit) OR <br>  //schema-element(su-vector:StatisticalTessellation) OR <br>  //schema-element(su-vector:Evolution) OR <br>  //schema-element(su-grid:StatisticalGridCell) OR <br>  //schema-element(su-grid:StatisticalGrid)
